@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="THF.exe" version="1.0.0.1" publicKeyToken="266c806fca638a37" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="THF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="THF.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="THF.exe" size="14808">
+      <assemblyIdentity name="THF" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>INx472wjH9WjykXbJOufeShdQ5+eEjc3uONCQpNYmAs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="THF.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-14SMM28\User" issuerKeyHash="35a9b55a97272d4062fa4d92719889b01e7566bd" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>bGs8AcpvthlOtx7/z7nSeYUVIMdWkCHOfCPY9FHlqEQ=</DigestValue></Reference></SignedInfo><SignatureValue>kkH0s+Ecp02PDklk86dq5GW4CHDNQyBrCDEnE1+igYFPLIO/YBFyXO9UGyYY1Pnydkdw5l5SSE8/Bs6GbbTKID+xyLRlQcL2qEC0bKx4GYJV7/JOhDBW2o5LbV/nlmVtkxcyHv8Jet1vOmaW3oYrpS1fjAk/hL06sx/Y7GJqM1g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wqN2DWdHl9SZW6jh2m92m2oBG5A0Tq3g7R7I9pEZ6X0Ka/DpKFm/+MI/9JE5YQn70R9HvjiuzjATxWXRI5YHyb2mNcx9rB6EFvMtT9C8OVMHkoY9r33Qd6Rv5WvewcPvXza/3Vm+yqW8Gigdy2euQdUPYFvhdOdzOoZIurHLaQs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="44a8e551f4d8237cce219056c720158579d2b9cfff1eb74e19b66fca013c6b6c" Description="" Url=""><as:assemblyIdentity name="THF.exe" version="1.0.0.1" publicKeyToken="266c806fca638a37" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-14SMM28\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nEGXXkqH4XLDYzXcdItpCJ9MJDEIQ8tBloLZb7CnLho=</DigestValue></Reference></SignedInfo><SignatureValue>gVFIVErHEjnSm/PgbJYY1b7x6wxWzk9mV8tEjWraASQ0PPXcTV+sYqtKNLVaBXS25ZSZPJLfoN/Gz6lL66oVmeZE8Jsj3RniryX191Hnla3JJNnerkw6X09CkapMMUaX6k3VunKKwUd98lyf/32lkRfQTPFw5Qpp4YnAJrHv+JM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wqN2DWdHl9SZW6jh2m92m2oBG5A0Tq3g7R7I9pEZ6X0Ka/DpKFm/+MI/9JE5YQn70R9HvjiuzjATxWXRI5YHyb2mNcx9rB6EFvMtT9C8OVMHkoY9r33Qd6Rv5WvewcPvXza/3Vm+yqW8Gigdy2euQdUPYFvhdOdzOoZIurHLaQs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGwbun+16GJtKPyTNNPs4EDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtADEANABTAE0ATQAyADgAXABVAHMAZQByMB4XDTE3MDQwMTE3NDA1M1oXDTE4MDQwMTIzNDA1M1owMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQAxADQAUwBNAE0AMgA4AFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwqN2DWdHl9SZW6jh2m92m2oBG5A0Tq3g7R7I9pEZ6X0Ka/DpKFm/+MI/9JE5YQn70R9HvjiuzjATxWXRI5YHyb2mNcx9rB6EFvMtT9C8OVMHkoY9r33Qd6Rv5WvewcPvXza/3Vm+yqW8Gigdy2euQdUPYFvhdOdzOoZIurHLaQsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA1ft2ZbuKLSzKNEFlwkZBXn6MTl4/xzSJEMAJ1CIi7it/O/jpcul/6F6VvMlZdY2KEwXc3bqZGhP7p5VZ9ElNq1xIPnc0xW6H34SrI3cIid3z1kPVaJMAh+G9eoYkNUGBVgLWPJRv4QUb57gKEZoxzxGkbxEufAS7LJM3xZBd7jw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
